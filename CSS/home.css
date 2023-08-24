@@ -1,0 +1,86 @@
+body{
+  background-color: crimson;
+  color: crimson;
+}
+
+
+
+p{
+  color: Crimson;
+}
+
+a{
+  color: Crimson;
+}
+
+.box{
+  width:300px;
+  height:auto;
+  background-color: white;
+  position: absolute;
+  top:30px;
+  border-radius: 10px;
+}
+
+input{
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: crimson;
+  text-align: center;
+}
+
+.vo{
+  background-color: crimson;
+  color: white;
+  border: none;
+  outline: none;
+  width:60%;
+  height:60px;
+}
+
+.container{
+  height:auto;
+  width:300px;
+  background-color: white;
+  top:30px;
+  position: absolute;
+}
+
+select{
+  background-color: crimson;
+  outline: none;
+  color: white;
+  width:60%;
+}
+
+#info{
+  display: none;
+}
+
+
+
+@media(min-width:480px){
+  .box{
+  width:900px;
+  height:90%;
+  background-color: white;
+  position: absolute;
+  top:60px;
+  left:60px;
+  border-radius: 10px;
+}
+  .container{
+  width:900px;
+  height:90%;
+  background-color: white;
+  position: absolute;
+  top:60px;
+  left:60px;
+  border-radius: 10px;
+}
+#info{
+  display: block;
+}
+}
